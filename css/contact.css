@@ -336,10 +336,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     height: 82px;
     width: 100%;
     background:url("../images/any-car.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
     color: #fff;
     display: flex;
     align-items: center;
@@ -758,6 +755,10 @@ body, html, h1, h2, h3, h4, h5, h6 {
 
     #contact-header {
         height: 320px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #contact-header h1 {

@@ -340,10 +340,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: center;
     background:url("../images/peedometer.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
 }
 
 #portdark {
@@ -471,10 +468,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 300px;
     position: relative;
     background: url("../images/any-car.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
 }
 
 .contact-dark {
@@ -762,6 +756,13 @@ h1, h2, h3, h4, h5, h6 {
     <---          GALLERY           -->
     <--- -------------------------- -*/
 
+    #s-hero {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     #gallery {
         height: auto;
     }
@@ -805,6 +806,10 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .contact-dark {
