@@ -799,7 +799,7 @@ p.text {
         margin: 0 auto 50px auto;
     }
 
-    #about-icons-wrapper {
+    .about-icons-wrapper {
         height: 600px;
         background-attachment: fixed;
         background-position: center;
