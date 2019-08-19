@@ -404,8 +404,48 @@ button.quote {
 }
 
 /*-- -------------------------- -->
-<---         CONTACT            -->
+<---           HOW              -->
 <--- -------------------------- -*/
+
+.how-content {
+    margin-bottom: 40px;
+}
+
+.how-line {
+    height: 2px;
+    width: 90%;    
+    background: #DB170D;
+    margin-bottom: 15px;
+}
+
+.how-content h3 {
+    font-weight: 700;
+    text-align: left;
+    margin: 15px 0;
+} 
+
+.how-content p {
+    text-align: left;
+}
+
+.how-content img {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.how-button-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.how-button {
+    width: 250px;
+}
 
 /*-- -------------------------- -->
 <---          CARDS             -->
