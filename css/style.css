@@ -691,7 +691,7 @@ ol.carousel-indicators {
 <--- -------------------------- -*/
 
 #gallery {
-	height: 2500px;
+	height: auto;
 }
 
 .gallery-content {
@@ -740,7 +740,12 @@ ol.carousel-indicators {
 .gallery {
 	display: flex;
 	flex-direction: column;
-	height: 250px;
+	height: auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
 }
 
 /*-- -------------------------- -->
