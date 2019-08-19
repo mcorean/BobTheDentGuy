@@ -1,0 +1,1531 @@
+
+/* Core Styles */
+.container {
+    padding: 0 1.5em;
+}
+
+#nav-topper {
+    display: none;
+}
+
+main {
+    position: relative;
+    top: -20%;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    color: #767676;
+}
+
+body, html, h1, h2, h3, h4, h5, h6 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    color: #414141;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    overflow-y: hidden;
+}
+
+#noScroll {
+    overflow: scroll;
+}
+
+#desktop-position {
+    display: none;
+}
+
+#desktop-partners {
+    display: none;
+}
+
+.quote,
+.call {
+	display: none;
+}
+
+.navbar-links {
+    display: none;
+}
+
+#logo {
+    display: none;
+}
+
+#call-strip {
+	display: none;
+}
+
+.button-solid {
+    display: inline-block;
+    background: #DB170D;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DB170D;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 12px 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    animation-delay: 0.6s;
+    border-radius: 5px;
+    white-space: nowrap;
+    float: left;
+}
+
+.button-solid a:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #DB170D;
+    transition: background 0.4s ease 0s;
+    transition-property: background;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+
+.button-transparent {
+    display: inline-block;
+    background: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 6px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    animation-delay: 0.6s;
+    border-radius: 5px;
+    white-space: nowrap;
+    float: left;
+    height: 40px;
+}
+
+.button-transparent a:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #DB170D;
+    transition: background 0.4s ease 0s;
+    transition-property: background;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+
+/*-- -------------------------- -->
+<---        NAVIGATION          -->
+<--- -------------------------- -*/
+
+.navbar {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 78px;
+    border-bottom: 5px solid #DB170D;
+    position: relative;
+    z-index: 1;
+}
+
+.open-slide {
+    float: right;
+    margin-right: 1.5em;
+    display: block;
+    z-index: 4;
+    position: absolute;
+    right: 0;
+}
+
+.side-nav {
+    width: 0;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    transition: 0.5s;
+    right: -1px;
+    text-align: right;
+    z-index: 15;
+}
+
+#side-hidden {
+    background-color: #000;
+    opacity: 0.9;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+    left: 0
+    margin: 0;
+    width: 0;
+    z-index: 7;
+}
+
+.side-nav ul {
+    display: block;
+    text-decoration: none;
+    z-index: 6;
+    /* Added this */
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+
+/* Added this */
+.nav-item {
+    display:block;
+    margin: 0;
+}
+
+.side-nav ul a {
+    position: relative;
+    width: 100%;
+    /* Changed this */
+    /* padding: 10px 130px 10px 100px;*/
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    z-index: 6;
+    /* Removed this */
+    /* right: 30px; */
+    text-align: right;
+    /* Added these */
+    display: block;
+    box-sizing: border-box;  
+} 
+
+.btn-close {
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    /* Changed this */
+    /* left: 22px; */
+    left: 0;
+    font-size: 36px;
+    text-decoration: none;
+    color: #2F2E2E;
+    right: 7px;
+    padding: 0;
+}
+
+.btn-close a:hover {
+    color: #444;
+    cursor: pointer;
+    background: #fff;
+}
+
+.side-nav .btn-close:hover {
+    color: #fff
+}
+
+.side-nav li a:hover {
+    color: #fff;
+    background: #DB170D;
+}
+
+.side-active {
+    color: #ffffff !important;
+    background: #DB170D;
+}
+
+.mobile-logo {
+    position: relative;
+    right: 0%;
+    padding: 0;
+}
+
+.mobile-logo img {
+    width: 160px;
+}
+
+.desktop-logo {
+    display: none;
+}
+
+#side-menu {
+    margin: 0;
+    width: 0;
+    transition: .5s;
+}
+
+#side-menu ul {
+    position: relative;
+    top: -10px;
+}
+
+#on-top {
+    display: none;
+    font-size: .9em;
+}
+
+#bottom-menu {
+    display: flex;
+    flex-direction: row;
+    z-index: 7;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: absolute;
+}
+
+.bottom {
+    width: 50%;
+    background: white;
+    bottom: 0;
+    position: fixed;
+    height: 60px;
+    display: block;
+    left: 0;
+    border-top: 1px solid #a9a9a9;
+    border-right: 1px solid #a9a9a9;
+}
+
+.bottom2 {
+    width: 50%;
+    background: white;
+    bottom: 0;
+    position: fixed;
+    height: 60px;
+    display: block;
+    position: fixed;
+    right: 0;
+    border-top: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+}
+
+#bottom-menu i {
+    padding-top: px;
+    color: #2F2E2E;
+    text-align: center;
+    position: relative;
+    /* center icon vertically */
+    top: calc(50% - 11px);
+}
+
+.copyright {
+    height: 180px;
+}
+
+.copy-center {
+    padding: 0;
+}
+
+#company {
+    color: #fff;
+    text-decoration: none;
+}
+
+#company a:hover {
+    color: #b0b0b0;
+}
+
+/*-- -------------------------- -->
+<---          LANDING           -->
+<--- -------------------------- -*/
+
+#hero {
+    height: 490px;
+    width: 100%;
+    background:url("../images/tool.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+#hero:before {
+    height: 490px;
+    width: 100%;
+    background:url("../images/tool.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+#dark {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.heroText {
+	padding: 3em 0;
+    position: relative;
+    z-index: 3;
+    height: auto;
+}
+
+.heroText h1 {
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+	font-weight: 900;
+	overflow-y: hidden;
+}
+
+.heroText h2 {
+	color: #fff;
+	font-size: 17px;
+	text-align: left;
+	line-height: 1.6em;
+	padding: 9px 0;
+}
+
+button.work,
+button.quote {
+	height: 40px;
+	margin: 10px 0;
+	padding: 0;
+	font-size: 13px;
+	width: 200px;
+}
+.work {
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+/*-- -------------------------- -->
+<---         CONTACT            -->
+<--- -------------------------- -*/
+
+/*-- -------------------------- -->
+<---          CARDS             -->
+<--- -------------------------- -*/
+
+.card {
+	height: auto;
+	text-align: left;
+	border: none;
+	margin: 60px 0;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card h3 {
+	text-align: left;
+	margin: 15px 0 9px 0;
+	font-weight: 900;
+	font-size: 23px;
+}
+
+button.card-button{
+	width: 160px;
+}
+
+/*-- -------------------------- -->
+<---         CAROUSEL           -->
+<--- -------------------------- -*/
+
+#carousel {
+	height: 400px;
+	width: 100%;
+    background:url("../images/fix.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    position: relative;
+}
+
+.carousel-dark {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.carousel-header h3 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.carousel-inner {
+	margin: 0;
+    position: absolute;
+    top: 55%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 5;
+    height: 100%;
+}
+
+.carousel-item p {
+	width: 184px;
+	margin: 10px auto;
+	color: #fff;
+    font-size: 13px;
+}
+
+.carousel-item h3 {
+	color: #F9BF0F;
+	font-size: 30px;
+	font-weight: 700;
+    margin-top: 20px;
+}
+
+ol.carousel-indicators {
+	position: relative;
+	bottom: -330px;
+	margin: 0;
+	width: auto;
+    z-index: 5;
+}
+
+.carousel-control-next {
+    position: absolute;
+    z-index: 5;
+    margin-left: auto;
+    top: -10%;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    z-index: 5;
+    margin-right: auto;
+    top: -10%;
+}
+
+#triangle {
+	width: 100%;
+	height: 150px;
+	background: #fff;
+	clip-path: polygon(0 76%, 0% 100%, 120% 100%);
+    -webkit-clip-path: polygon(0 76%, 0% 100%, 120% 100%);
+	position: absolute;
+	bottom: 0;
+    z-index: 5;
+}
+	
+/*-- -------------------------- -->
+<---         SERVICES           -->
+<--- -------------------------- -*/
+
+.services-topper {
+	padding-top: 60px;
+	padding-bottom: 0;
+}
+
+.services-line {
+	height: 3px;
+	width: 100px;
+	background: #DB170D;
+	margin: auto;
+	margin: 15px auto;
+}
+
+.services-item i {
+	color: #DB170D;
+}
+
+.services-topper h2 {
+	font-weight: 900;
+	font-size: 28px;
+	width: auto;
+}
+
+.services-item {
+	margin: 80px 0;
+}
+
+.services-icons h3 {
+	font-weight: 700;
+	font-size: 29px;
+	margin: 10px 0;
+}
+
+.services-item:last-child {
+	margin-bottom: 30px;
+}
+
+.services-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+/*-- -------------------------- -->
+<---          WHY BOB           -->
+<--- -------------------------- -*/
+
+.why-bob-topper {
+	padding-top: 80px;
+	padding-bottom: 0;
+}
+
+.why-bob-line {
+	height: 3px;
+	width: 100px;
+	background: #DB170D;
+	margin: auto;
+	margin: 15px auto;
+}
+
+.why-bob-topper h2 {
+	font-weight: 900;
+	font-size: 28px;
+	width: auto;
+    overflow-y: hidden;
+}
+
+.about-content img {
+	border-radius: 50%;
+	margin: 30px auto;
+}
+
+.list-item {
+	margin: 60px auto;
+}
+
+.svg {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90px;
+	height: 90px;
+	background: transparent;
+	border: 1px solid #DFE0E1;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.about-content svg {
+	width: 84px;
+	height: 104px;
+}
+
+.list-item h3 {
+	margin: 20px auto 10px auto;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.list-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bob-button {
+	height: 40px;
+	width: 170px;
+	padding: 0;
+	font-size: 13px;
+}
+
+.about-button-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/*-- -------------------------- -->
+<---          GALLERY           -->
+<--- -------------------------- -*/
+
+#gallery {
+	height: 2500px;
+}
+
+.gallery-content {
+	height: 160px;
+	width: 100%;
+    background:url("../images/any-car.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.gallery-dark {
+    position: absolute;
+    height: 160px;
+    width: 100%;
+    background: #000;
+    opacity: 0.8;
+    z-index: 5;
+}
+
+.gallery-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 160px;
+}
+
+.gallery-content h3 {
+	font-size: 22px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+    position: relative;
+    z-index: 6;
+}
+
+.gallery-button {
+	padding: 0;
+	height: 40px;
+	width: 200px;
+	margin-bottom: 0;
+    position: relative;
+    z-index: 6;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+}
+
+/*-- -------------------------- -->
+<---          CONTACT           -->
+<--- -------------------------- -*/
+
+#contact {
+	height: 230px;
+	width: 100%;
+    background:url("../images/long.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-dark {
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    background: #DB170D;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.contact-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 230px;
+    position: relative;
+    z-index: 3;
+}
+
+.left h3 {
+	color: #fff;
+	font-weight: 900;
+	text-align: center;
+}
+
+.left p {
+	color: #fff;
+}
+
+.contact-button {
+	background: #fff;
+	border: none;
+	color: #DB170D;
+}
+
+.contact-button:hover {
+	background: #E8E6E6;
+}
+
+/*-- -------------------------- -->
+<---           FOOTER           -->
+<--- -------------------------- -*/
+
+.footer-flex {
+	padding-top: 50px;
+}
+
+#footer {
+    background:#fff;
+}
+
+.footer-item p {
+    margin: 0;
+    text-align: left;
+}
+
+.footer-item img {
+    margin: 0px 100% 30px 0;
+    padding-top: 30px;
+    float: left;
+}
+
+.footer-item h4 {
+    font-size: 18px;
+    color: #414141;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.footer-line {
+    width: 260px;
+    border-top: 2px solid #DB170D;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.button-list a {
+    text-decoration: none;
+    margin-bottom: 15px;
+    list-style: none;
+    text-align: left;
+    display: block;
+}
+
+.button-list a:hover {
+    color: #E8E6E6;
+}
+
+.green {
+    color: #DB170D;
+}
+
+.footer-main-line {
+    width: 100%;
+    margin: 20px 0;
+    border-top: 2px solid #DB170D;
+}
+
+.branding a {
+    text-decoration: none;
+}
+
+.branding a:hover {
+    color: #DB170D;
+    opacity: .7;
+}
+
+.branding {
+    height: 150px;
+    text-align: center;
+}
+
+.branding p {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+/* Large Screens */
+@media screen and (min-width: 410px) and (max-width: 500px) {
+    
+    .container {
+        padding: 0 4em;
+    }
+
+    .gallery img {
+        height: 414px;
+    }
+
+    #gallery {
+        height: 4140px;
+    }
+
+}
+
+/* Tablets */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    <--- -------------------------- -*/
+
+    .heroText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        height: 450px;
+        width: 500px;
+    }
+
+    .flex-button {
+        display: flex;
+        flex-direction: row;
+    }
+
+    button.quote {
+        margin-right: 20px;
+    }
+
+    /*-- -------------------------- -->
+    <---        CALL STRIP          -->
+    <--- -------------------------- -*/
+
+    #call-strip {
+        display: block;
+        height: 200px;
+        width: 100%;
+        background:url("../images/fix.jpg");
+        position: relative;
+    }
+
+    .call-strip-dark {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #DB170D;
+        opacity: 0.8;
+        z-index: 2;
+    }
+
+    .call-strip-content {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        position: relative;
+        z-index: 5;
+    }
+
+    .call-strip-content p {
+        width: 400px;
+        height: auto;
+        margin: 0;
+        color: #fff;
+    }
+
+    .call-strip-button {
+        height: 40px;
+        padding: 0;
+        width: 200px;
+    }
+
+    /*-- -------------------------- -->
+    <---          BIG 3             -->
+    <--- -------------------------- -*/
+
+    .card-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        z-index: 5;
+    }
+
+    .card {
+        width: 30%;
+        position: relative;
+        top: -150px;
+    }
+
+    .card img {
+        border: 2px solid #fff;
+        box-sizing: border-box;
+    }
+
+    .card h3 {
+        font-size: 17px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .card-button {
+        position: absolute;
+        bottom: -80px;
+        padding: 0;
+        height: 40px;
+    }
+
+    /*-- -------------------------- -->
+    <---         CAROUSEL           -->
+    <--- -------------------------- -*/
+
+    .carousel-inner {
+        position: relative;
+        top: 190px;
+    }
+
+    .carousel-indicators {
+        position: relative;
+        top: 310px;
+    }
+
+    .carousel-header h3 {
+        font-size: 30px;
+    }
+
+    .carousel-item p {
+        height: 130px;
+        width: 240px;
+        margin-top: 20px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        position: relative;
+        top: -20px;
+    }
+
+    #triangle {
+        bottom: 0px;
+        clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
+            100% 100%, 100% 100%, 23% 100%, 0 100%, 0 100%, 
+            0 100%, 0 60%);;
+    }
+
+    /*-- -------------------------- -->
+    <---          ABOUT             -->
+    <--- -------------------------- -*/
+
+    .list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .list-item {
+        width: 29%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .list-item p {
+        font-size: 15px;
+    }
+
+    .list-item svg {
+        height: 78px;
+        width: 74px;
+    }
+
+
+    .about-button-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    /*-- -------------------------- -->
+    <---         GALLERY            -->
+    <--- -------------------------- -*/
+
+    #gallery {
+        height: auto;
+    }
+
+    .gallery-under {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .gallery img {
+        width: 50%;
+        height: auto;
+        margin: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---          FOOTER            -->
+    <--- -------------------------- -*/
+    
+    .footer-item {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .container {
+        max-width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---         NAVIGATION         -->
+    <--- -------------------------- -*/
+
+    .topper-content i {
+        float: left;
+        color: #fff;
+        margin: 0px 10px 0 0;
+    }
+
+    .topper-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    #nav-topper {
+        display: block;
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+    }
+    
+    #nav-topper {
+        height: 40px;
+        background: #414141;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .topper-content p {
+        float: left;
+        margin: 0px 65px 0px 0px;
+        font-size: 10px;
+        color: #eaeaea;
+        width: auto;
+    }
+
+    p.topper-content {
+        font-size: .8em;
+    }
+
+    .topper-content p:last-child {
+        margin-right: 0;
+    }
+
+    #bottom-menu {
+        display: none;
+    }
+
+    #side-menu {
+        display: none;
+    }
+
+    .open-slide {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: none !important;
+    }
+
+    .desktop-logo {
+        display: block;
+        float: left;
+        height: 100px;
+    }
+
+    .desktop-logo img {
+        margin-top: 20%;
+        margin-bottom: auto;
+    }
+
+    .navbar {
+        height: 100px;
+    }
+
+    .navbar-links {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 15px;
+        list-style: none;
+    }
+
+    .navbar-menu {
+        height: 100px;
+    }
+
+    .navbar-links li {
+        float: left;
+        margin: 6.5% 30px 0 30px;
+    }
+
+    .navbar-links li a {
+        text-decoration: none;
+        color: #6A6A6A;
+        transition: color 0.4s ease 0s;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    ul.navbar-links a:hover {
+        color: #999999;
+    }
+
+    #active {
+        color: #db170d;
+    }
+
+    ul.navbar-links {
+        float: right;
+        text-align: right;
+    }
+
+    .navbar-links {
+        margin-right: 0;
+    }
+
+    .navbar-links li:last-child {
+        margin-right: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    <--- -------------------------- -*/
+
+    #hero {
+        height: 500px;
+    }
+
+    #home-h {
+        font-size: 40px;
+        width: 800px;
+    }
+
+    #home-p {
+        width: 600px;
+        margin: 15px 0;
+    }
+
+    button.hero-quote {
+        margin-right: 25px;
+    }
+
+    .hero-content {
+        padding-top: 80px;
+    }
+
+    /*-- -------------------------- -->
+    <---         CALL STRIP         -->
+    <--- -------------------------- -*/
+
+    #call-strip {
+        display: block;
+        height: 200px;
+        width: 100%;
+        background:url("../images/fix.jpg");
+        position: relative;
+    }
+
+    .call-strip-dark {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #DB170D;
+        opacity: 0.8;
+        z-index: 2;
+    }
+
+    .call-strip-content {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        position: relative;
+        z-index: 5;
+    }
+
+    .call-strip-content p {
+        width: 400px;
+        height: auto;
+        margin: 0;
+        color: #fff;
+    }
+
+    .call-strip-button {
+        height: 40px;
+        padding: 0;
+        width: 200px;
+        font-size: 13px;
+    }
+
+    /*-- -------------------------- -->
+    <---           BIG 3            -->
+    <--- -------------------------- -*/
+
+    .card-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 27%;
+        position: relative;
+        top: -140px;
+        z-index: 6;
+    }
+
+    .card img {
+        box-sizing: border-box;
+        border: 2px solid #fff;
+    }
+
+    .card h3 {
+        font-size: 18px;
+        overflow-y: hidden;
+    }
+
+    .card p {
+        margin-bottom: 25px;
+    }
+
+    .card-button {
+        margin-top: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---           CAROUSEL         -->
+    <--- -------------------------- -*/
+    
+    #carousel {
+        position: relative;
+        height: 450px;
+    }
+
+    .carousel {
+        position: relative;
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-dark {
+        position: absolute;
+        height: 100%;
+    }
+
+    ol.carousel-indicators {
+        margin-top: 60px;
+    }
+
+    .carousel-inner {
+        margin-top: 30px;
+    }
+
+    #triangle {
+        position: absolute;
+        bottom: -50px;
+        clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
+            100% 100%, 100% 100%, 23% 100%, 0 100%, 0 100%, 
+            0 100%, 0 60%);;
+    }
+
+    /*-- -------------------------- -->
+    <---           ABOUT            -->
+    <--- -------------------------- -*/
+
+    .why-bob-topper {
+        width: 720px;
+        margin: auto;
+    }
+
+    .why-bob-topper h2 {
+        font-size: 40px;
+    }
+
+    .image {
+        width: 413px;
+    }
+
+    .image img {
+        width: 413px;
+        height: 413px;
+    }
+
+    .list {
+        width: 510px;
+    }
+
+    .list-item {
+        width: 450px;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin: 18px auto;
+        justify-content: space-between;
+    }
+
+    .list-item p {
+        font-size: 14px; 
+        width: 320px;
+    }
+
+    .svg {
+        margin: 20px;
+    }
+
+    .list-item h3 {
+        text-align: left;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+    .about-button-div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 50px;
+    }
+
+    /*-- -------------------------- -->
+    <---          GALLERY           -->
+    <--- -------------------------- -*/
+
+    #gallery {
+        height: auto;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #gallery img {
+        height: auto;
+        width: 20%;
+    }
+
+    /*-- -------------------------- -->
+    <---           CONTACT          -->
+    <--- -------------------------- -*/
+
+    .contact-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        text-align: left;
+    }
+
+    .left p,
+    .left h3 {
+        text-align: left;
+        margin: 0;
+    }
+
+    #contact {
+        height: 170px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-dark {
+        height: 100%;
+
+    }
+
+    /*-- -------------------------- -->
+    <---           FOOTER           -->
+    <--- -------------------------- -*/
+
+    .footer-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-item img {
+        margin: 0 50px 0 0;
+        padding: 0;
+    }
+
+    .footer-item {
+        width: 20%;
+    }
+
+    .footer-item h4 {
+        font-weight: 900;
+    }
+
+    .footer-item p {
+        font-size: 15px;
+    }
+
+    .footer-line {
+        width: 85%;
+    }
+
+    .branding {
+        height: 70px;
+    }
+
+    .branding p {
+        margin-bottom: 2px;
+    }
+
+
+}
