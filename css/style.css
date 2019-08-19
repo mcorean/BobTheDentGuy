@@ -469,10 +469,7 @@ button.card-button{
 	height: 400px;
 	width: 100%;
     background:url("../images/fix.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
     position: relative;
 }
 
@@ -700,11 +697,8 @@ ol.carousel-indicators {
 .gallery-content {
 	height: 160px;
 	width: 100%;
-    background:url("../images/any-car.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background:url("../images/fix.jpg");
+    background-position: center center;
     position: relative;
 }
 
@@ -756,11 +750,8 @@ ol.carousel-indicators {
 #contact {
 	height: 230px;
 	width: 100%;
-    background:url("../images/long.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background:url("../images/fix.jpg");
+    background-position: center center;
     position: relative;
 }
 
@@ -1257,6 +1248,11 @@ ol.carousel-indicators {
 
     #hero {
         height: 500px;
+        background:url("../images/tool.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #home-h {
@@ -1365,6 +1361,10 @@ ol.carousel-indicators {
     #carousel {
         position: relative;
         height: 450px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .carousel {
@@ -1483,6 +1483,13 @@ ol.carousel-indicators {
         width: 20%;
     }
 
+    .gallery-content {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     /*-- -------------------------- -->
     <---           CONTACT          -->
     <--- -------------------------- -*/
@@ -1509,6 +1516,10 @@ ol.carousel-indicators {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .contact-dark {
