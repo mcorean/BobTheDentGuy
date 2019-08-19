@@ -336,10 +336,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
     height: 82px;
     width: 100%;
     background:url("../images/any-car.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
     color: #fff;
     display: flex;
     align-items: center;
@@ -394,10 +391,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 .about-icons-wrapper {
     height: auto;
     background: url("../images/about-background.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
 }
 
 .about-item {
@@ -489,10 +483,7 @@ p.text {
     height: 300px;
     position: relative;
     background: url("../images/any-car.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
 }
 
 .contact-dark {
@@ -789,6 +780,10 @@ p.text {
 
     #about-header {
         height: 320px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     h1.services-header {
@@ -806,6 +801,10 @@ p.text {
 
     #about-icons-wrapper {
         height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .about-container {
@@ -932,6 +931,10 @@ p.text {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .contact-dark {
