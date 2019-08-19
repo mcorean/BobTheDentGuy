@@ -337,24 +337,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 490px;
     width: 100%;
     background:url("../images/tool.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    position: relative;
-}
-
-#hero:before {
-    height: 490px;
-    width: 100%;
-    background:url("../images/tool.jpg");
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     /*background-size: cover;*/
+    color: #fff;
     position: relative;
-    z-index: 2;
 }
 
 #dark {
