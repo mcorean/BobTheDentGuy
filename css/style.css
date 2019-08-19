@@ -968,12 +968,17 @@ ol.carousel-indicators {
     <---          BIG 3             -->
     <--- -------------------------- -*/
 
+    #three-card {
+        height: 370px;
+    }
+
     .card-flex {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         position: relative;
         z-index: 5;
+        height: auto;
     }
 
     .card {
@@ -1000,6 +1005,35 @@ ol.carousel-indicators {
         bottom: -80px;
         padding: 0;
         height: 40px;
+    }
+
+
+    /*-- -------------------------- -->
+    <---           HOW              -->
+    <--- -------------------------- -*/
+
+    .how-content img {
+        width: 400px;
+        height: auto;
+        float: left;
+        position: relative;
+        display: block;
+    }
+
+    .how-content p {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .how-image {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
     }
 
     /*-- -------------------------- -->
@@ -1328,10 +1362,15 @@ ol.carousel-indicators {
     <---           BIG 3            -->
     <--- -------------------------- -*/
 
+    #three-card {
+        height: 470px;
+    }
+
     .card-flex {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        height: auto;
     }
 
     .card {
@@ -1360,7 +1399,16 @@ ol.carousel-indicators {
     }
 
     /*-- -------------------------- -->
-    <---           CAROUSEL         -->
+    <---           HOW              -->
+    <--- -------------------------- -*/
+    
+    .how-content img {
+        width: 400px;
+        height: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---         CAROUSEL           -->
     <--- -------------------------- -*/
     
     #carousel {
