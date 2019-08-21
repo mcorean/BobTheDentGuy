@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 0;
     transition: 0.5s;
-    left: 0
+    left: 0;
     margin: 0;
     width: 0;
     z-index: 7;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bottom-menu i {
-    padding-top: px;
+    padding-top: 0px;
     color: #2F2E2E;
     text-align: center;
     position: relative;
@@ -1327,11 +1327,13 @@ ol.carousel-indicators {
         z-index: 5;
     }
 
-    .call-strip-content p {
+    .call-strip-content h4 {
         width: 400px;
         height: auto;
         margin: 0;
         color: #fff;
+        font-size: 17px;
+        text-align: left;
     }
 
     .call-strip-button {

@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 0;
     transition: 0.5s;
-    left: 0
+    left: 0;
     margin: 0;
     width: 0;
     z-index: 7;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bottom-menu i {
-    padding-top: px;
+    padding-top: 0px;
     color: #2F2E2E;
     text-align: center;
     position: relative;
@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .s-header {
     position: relative;
-    z-index: 10px;
+    z-index: 10;
     padding: 30px 1.5em;
 }
 
