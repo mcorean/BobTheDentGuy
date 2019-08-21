@@ -242,11 +242,10 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-logo {
     position: relative;
     right: 0%;
-    padding: 0;
 }
 
 .mobile-logo img {
-    width: 160px;
+    margin: auto;
 }
 
 .desktop-logo {
@@ -878,7 +877,7 @@ ol.carousel-indicators {
 }
 
 /* Large Screens */
-@media screen and (min-width: 410px) and (max-width: 500px) {
+@media screen and (min-width: 410px) and (max-width: 499px) {
     
     .container {
         padding: 0 4em;
@@ -892,10 +891,11 @@ ol.carousel-indicators {
         height: 4140px;
     }
 
+
 }
 
 /* Tablets */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 1024px) {
 
     /*-- -------------------------- -->
     <---           HERO             -->
@@ -1209,8 +1209,7 @@ ol.carousel-indicators {
     }
 
     .desktop-logo img {
-        
-        margin-bottom: auto;
+        margin: 0;
     }
 
     .navbar {
