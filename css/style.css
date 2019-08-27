@@ -908,12 +908,24 @@ ol.carousel-indicators {
     <---           HERO             -->
     <--- -------------------------- -*/
 
+    .hero-logo {
+        margin-top: 100px;
+        width: 250px;
+    }
+
     .heroText {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding: 0;
-        height: 450px;
+        height: auto;
+        width: auto;
+        margin: 0 !important;
+    }
+
+    .heroText h1,
+    .heroText h2 {
         width: 500px;
     }
 
@@ -923,7 +935,7 @@ ol.carousel-indicators {
     }
 
     button.quote {
-        margin-right: 20px;
+        margin-right: auto;
     }
 
     /*-- -------------------------- -->
@@ -1064,7 +1076,7 @@ ol.carousel-indicators {
     }
 
     #triangle {
-        bottom: 0px;
+        bottom: -1px;
         clip-path: polygon(50% 100%, 100% 60%, 100% 100%, 
             100% 100%, 100% 100%, 23% 100%, 0 100%, 0 100%, 
             0 100%, 0 60%);;
