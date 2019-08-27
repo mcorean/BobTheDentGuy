@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .quote,
 .call {
-	display: none;
+    display: none;
 }
 
 .navbar-links {
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #call-strip {
-	display: none;
+    display: none;
 }
 
 .button-solid {
@@ -697,7 +697,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .desktop-logo img {
-
+        padding-top: 10px;
         margin-bottom: auto;
     }
 
@@ -829,8 +829,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .footer-item img {
-        margin: 0 50px 0 0;
+        margin: 0 100% 20px 0;
         padding: 0;
+        width: 200px;
     }
 
     .footer-item {
@@ -843,6 +844,10 @@ h1, h2, h3, h4, h5, h6 {
 
     .footer-item p {
         font-size: 15px;
+    }
+
+    .footer1 {
+        display: none;
     }
 
     .footer-line {

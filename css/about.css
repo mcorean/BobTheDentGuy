@@ -47,7 +47,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 
 .quote,
 .call {
-	display: none;
+    display: none;
 }
 
 .navbar-links {
@@ -59,7 +59,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
 }
 
 #call-strip {
-	display: none;
+    display: none;
 }
 
 .button-solid {
@@ -715,6 +715,7 @@ p.text {
         display: block;
         float: left;
         height: 100px;
+        padding-top: 10px;
     }
 
     .desktop-logo img {
@@ -952,8 +953,9 @@ p.text {
     }
 
     .footer-item img {
-        margin: 0 50px 0 0;
+        margin: 0 100% 20px 0;
         padding: 0;
+        width: 200px;
     }
 
     .footer-item {
@@ -970,6 +972,10 @@ p.text {
 
     .footer-line {
         width: 85%;
+    }
+
+    .footer1 {
+        display: none;
     }
 
     .branding {
