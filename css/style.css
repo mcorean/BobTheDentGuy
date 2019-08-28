@@ -1313,6 +1313,10 @@ ol.carousel-indicators {
         padding-top: 40px;
     }
 
+    .desktop-logo-hidden img {
+        width: 500px;
+    }
+
     #hero {
         height: 620px;
         background:url("../images/tool.jpg");
