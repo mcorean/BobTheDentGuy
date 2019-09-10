@@ -1,8 +1,6 @@
-#These commented commands create a 404 page
-
-  #/bobsite/index / 200!
-  #/bobsite/about /about-bob-the-dent-guy 200!
-  #/bobsite/portfolio /portfolio 200!
-  #/bobsite/contact /contact-bob-the-dent-guy 200!
-https://bobthedentguy.netlify.com https://www.bobthedentguy.com/ 301!
-https://unruffled-meitner-096023.netlify.com/* https://www.bobthedentguy.com/:splat 301!
+/bobsite/about  /about 301
+/about /bobsite/about.html 201
+/bobsite/portfolio  /portfolio 301
+/portfolio /bobsite/portfolio.html 201
+/bobsite/contact  /contact 301
+/contact /bobsite/contact.html 201
