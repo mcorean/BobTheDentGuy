@@ -6,3 +6,4 @@
 #/html/portfolio.html /portfolio 200
 #/html/contact.html /contact-bob-the-dent-guy 200
 https://bobthedentguy.netlify.com https://www.bobthedentguy.com/ 301
+https://unruffled-meitner-096023.netlify.com/* https://www.bobthedentguy.com/:splat 301!
