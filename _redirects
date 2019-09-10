@@ -1,5 +1,8 @@
-/html/index.html / 200
-/html/about.html /about-bob-the-dent-guy 200
-/html/portfolio.html /portfolio 200
-/html/contact.html /contact-bob-the-dent-guy 200
-https://bobthedentguy.netlify.com https://www.bobthedentguy.com/html/index.html 301
+#These commands did not work, I commented them so the site can work.
+#These commands render 404 pages when their links are clicked
+
+#/html/index.html / 200
+#/html/about.html /about-bob-the-dent-guy 200
+#/html/portfolio.html /portfolio 200
+#/html/contact.html /contact-bob-the-dent-guy 200
+#https://bobthedentguy.netlify.com https://www.bobthedentguy.com/html/index.html 301
