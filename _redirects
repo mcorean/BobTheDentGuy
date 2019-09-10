@@ -1,9 +1,7 @@
 / /html/index.html 
 
-https://www.bobthedentguy.com/html/about.html https://www.bobthedentguy.com/about-bob-the-dent-guy 301
+/about-bob-the-dent-guy /html/about.html 200
 
 /portfolio /html/portfolio.html 
 
 /contact-bob-the-dent-guy /html/contact.html 
-
-https://bobthedentguy.netlify.com https://www.bobthedentguy.com/html/index.html 301
