@@ -1,9 +1,9 @@
-/ /html/index.html 200
+/html/index.html     /
 
-/about-bob-the-dent-guy /html/about.html 200
+/html/about.html     /about-bob-the-dent-guy
 
-/portfolio /html/portfolio.html 
+/html/portfolio.html /portfolio 
 
-/contact-bob-the-dent-guy /html/contact.html 
+/html/contact.html   /contact-bob-the-dent-guy
 
-https://www.bobthedentguy.com/html/index.html https://bobthedentguy.netlify.com 301
+https://bobthedentguy.netlify.com 301 https://www.bobthedentguy.com/
