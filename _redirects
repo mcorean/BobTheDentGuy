@@ -1,6 +1,14 @@
+# Default Rewrites
 / /bobsite/index.html 200
 /about-bob-the-dent-guy /bobsite/about.html 200
 /portfolio /bobsite/portfolio.html 200
 /contact-bob-the-dent-guy /bobsite/contact.html 200
+
+# Redirects so no inline code is changed
+/html/about.html /about-bob-the-dent-guy 301
+/html/index.html / 301
+/html/portfolio.html /portfolio 301
+/html/contact.html /contact-bob-the-dent-guy 301
+
 https://bobthedentguy.netlify.com https://www.bobthedentguy.com/ 301!
 https://unruffled-meitner-096023.netlify.com/* https://www.bobthedentguy.com/:splat 301!
